@@ -5,7 +5,7 @@ Definición de una máquina virtual Vagrant para ejecutar ODOO (ex OpenERP) en m
 
 ### Pasos para poder utilizarla:
 * Instalar [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
-* Instalar [Vagrand](https://www.vagrantup.com/downloads.html)
+* Instalar [Vagrant](https://www.vagrantup.com/downloads.html)
 * Clonar este repositorio
 * En caso de tener una copia local de la rama de [ODOO](https://github.com/odoo/odoo.git), copiarla/moverla a la carpeta del repositiorio. Sino, se bajará automáticamente durante la instalación. Por defecto se baja el branch MASTER. En caso de querer trabajar en otra rama, modificar el archivo [manifests/default.pp](https://github.com/gbisheimer/odoo-vagrant/blob/master/manifests/default.pp#L92).
 * Abrir una consola en la carpeta del repositorio y ejecutar `vagrant up`
